@@ -1,0 +1,34 @@
+
+Udacity project 3 OSM data wrangling includes the following files:
+
+
+- bristol_map_sample.osm : Sample data of Bristol map used for scrip validation
+- Wrangle OpenStreetMap Data - Submission.html: The final write-up documenting data wrangling process and findings
+- audit_street_names.py: Script used to clean street names
+- audit_postal_code.py:  Script used to clean post codes
+- audit_house_number.py: Script used to clean House numbers
+- audit_amenities.py:    Script used to check typos and correct amenity names
+- prepare_database.py:   Script used to clean data and convert to CSV files
+- csv_to_sql.py: 		 Script used to create SQL database from CSV files
+- schema.py:			 Script provided by Udacity to create/validate CSV data format
+- sample.py:			 Script provided by Udacity to sample large OSM files
+
+
+The following files are generated from script prepare_database.py
+- nodes.csv
+- nodes_tags.csv
+- ways.csv
+- ways_nodes.csv
+- ways_tags.csv
+
+
+- bristol.db: 	SQL database created from OSM file generate from script csv_to_sql.py
+
+References used:
+
+https://wiki.openstreetmap.org/wiki/OSM_XML
+https://www.python-course.eu/re.php
+https://gist.github.com/simonwhitaker/5748487
+https://sqliteonline.com/
+https://www.dofactory.com/sql/join
+
